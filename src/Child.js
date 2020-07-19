@@ -8,8 +8,8 @@ function Child() {
         <div>
             Child {value[0]}
             <br />
-            <br/>
-            <button onClick={()=>{value[1](++value[0])}}>Update Value</button>
+            <br />
+            <button onClick={() => { value[1](++value[0]) }}>Update Value</button>
         </div>
     );
 }
